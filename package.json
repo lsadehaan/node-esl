@@ -1,8 +1,7 @@
 {
-  "name": "modesl",
+  "name": "drachtio-modesl",
   "version": "1.2.0",
   "description": "FreeSWITCH ESL Node.js Implementation",
-  "author": "Chad Engler <chad@pantherdev.com>",
   "keywords": [
     "freeswitch",
     "api",
@@ -12,14 +11,14 @@
     "socket",
     "library"
   ],
-  "homepage": "https://github.com/englercj/node-esl",
-  "bugs": "https://github.com/englercj/node-esl/issues",
+  "bugs": "https://github.com/davehorton/node-esl/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/englercj/node-esl.git"
+    "url": "https://github.com/davehorton/node-esl.git"
   },
   "main": "lib/index",
   "dependencies": {
+    "debug": "^4.1.1",
     "eventemitter2": "^4.1",
     "uuid": "^3.1.0",
     "xml2js": "^0.4.19"
@@ -37,7 +36,7 @@
     "test": "grunt test"
   },
   "engines": {
-    "node": ">=1.x"
+    "node": ">=8.x"
   },
   "config": {
     "blanket": {
