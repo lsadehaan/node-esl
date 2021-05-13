@@ -1,6 +1,6 @@
 {
   "name": "drachtio-modesl",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "FreeSWITCH ESL Node.js Implementation",
   "keywords": [
     "freeswitch",
@@ -19,16 +19,16 @@
   "main": "lib/index",
   "dependencies": {
     "debug": "^4.1.1",
-    "eventemitter2": "^4.1",
+    "eventemitter2": "^6.4.4",
     "uuid": "^3.1.0",
     "xml2js": "^0.4.19"
   },
   "devDependencies": {
+    "chai": "^4.1.2",
     "grunt": "^1.0.1",
     "grunt-contrib-jshint": "^1.1.0",
-    "grunt-mocha-cov": "^0.4.0",
+    "grunt-mocha-cov": "^0.3.0",
     "mocha-term-cov-reporter": "^0.2.3",
-    "chai": "^4.1.2",
     "sinon": "^3.2.1",
     "sinon-chai": "^2.13.0"
   },
